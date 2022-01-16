@@ -1,0 +1,9 @@
+neologdn==0.5.1
+mecab-python3==1.0.3
+tweepy==3.10.0
+pandas==1.2.4
+emoji==1.2.0
+openpyxl==3.0.7
+pycaret==2.3.1
+gspread==3.7.0
+oauth2client==4.1.3

@@ -1,0 +1,260 @@
+2021-01-24 17:51:20,214:INFO:Initializing load_model()
+2021-01-24 17:51:20,214:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-01-24 17:51:20,236:INFO:Initializing predict_model()
+2021-01-24 17:51:20,236:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-01-24 17:51:20,237:INFO:Checking exceptions
+2021-01-24 17:51:20,237:INFO:Preloading libraries
+2021-01-24 18:24:31,055:INFO:Initializing load_model()
+2021-01-24 18:24:31,055:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-01-24 18:24:31,096:INFO:Initializing predict_model()
+2021-01-24 18:24:31,096:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-01-24 18:24:31,096:INFO:Checking exceptions
+2021-01-24 18:24:31,096:INFO:Preloading libraries
+2021-01-24 18:47:25,501:INFO:Initializing load_model()
+2021-01-24 18:47:25,501:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-01-24 18:47:25,529:INFO:Initializing predict_model()
+2021-01-24 18:47:25,529:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-01-24 18:47:25,529:INFO:Checking exceptions
+2021-01-24 18:47:25,529:INFO:Preloading libraries
+2021-05-23 10:27:50,568:INFO:Initializing load_model()
+2021-05-23 10:27:50,569:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-05-23 10:27:50,714:INFO:Initializing predict_model()
+2021-05-23 10:27:50,715:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-23 10:27:50,715:INFO:Checking exceptions
+2021-05-23 10:27:50,716:INFO:Preloading libraries
+2021-05-23 11:15:12,528:INFO:Initializing load_model()
+2021-05-23 11:15:12,532:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-05-23 11:15:12,689:INFO:Initializing predict_model()
+2021-05-23 11:15:12,690:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-23 11:15:12,690:INFO:Checking exceptions
+2021-05-23 11:15:12,691:INFO:Preloading libraries
+2021-05-25 11:26:25,714:INFO:Initializing load_model()
+2021-05-25 11:26:25,716:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-05-25 11:26:26,222:INFO:Initializing predict_model()
+2021-05-25 11:26:26,222:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-25 11:26:26,223:INFO:Checking exceptions
+2021-05-25 11:26:26,223:INFO:Preloading libraries
+2021-05-25 11:30:31,704:INFO:Initializing load_model()
+2021-05-25 11:30:31,706:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-05-25 11:30:31,874:INFO:Initializing predict_model()
+2021-05-25 11:30:31,875:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-25 11:30:31,875:INFO:Checking exceptions
+2021-05-25 11:30:31,876:INFO:Preloading libraries
+2021-05-25 11:33:03,178:INFO:Initializing load_model()
+2021-05-25 11:33:03,181:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-05-25 11:33:03,368:INFO:Initializing predict_model()
+2021-05-25 11:33:03,368:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-25 11:33:03,370:INFO:Checking exceptions
+2021-05-25 11:33:03,371:INFO:Preloading libraries
+2021-05-25 13:21:23,327:INFO:Initializing load_model()
+2021-05-25 13:21:23,329:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-05-25 13:21:23,542:INFO:Initializing predict_model()
+2021-05-25 13:21:23,543:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-25 13:21:23,543:INFO:Checking exceptions
+2021-05-25 13:21:23,544:INFO:Preloading libraries
+2021-05-25 13:23:19,352:INFO:Initializing load_model()
+2021-05-25 13:23:19,354:INFO:load_model(model_name=lr, platform=None, authentication=None, verbose=True)
+2021-05-25 13:23:19,529:INFO:Initializing predict_model()
+2021-05-25 13:23:19,530:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['テキスト'],
+                                      ml_usecase='classification',
+                                      target='ラベル')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='ラベル')),
+                ('fix_perfect', Remove_100(target='ラベル')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=8294)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-25 13:23:19,531:INFO:Checking exceptions
+2021-05-25 13:23:19,531:INFO:Preloading libraries
