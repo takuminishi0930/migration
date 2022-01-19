@@ -3,6 +3,7 @@ cd
 #sudo apt install git -y
 git config --global user.name "takuminishi0930"
 git config --global user.email "takuminishi0930@icloud.com"
+#mkdir program
 cd /home/takumi/program
 git clone https://github.com/takuminishi0930/migration
 git clone https://github.com/takuminishi0930/gyoshock-battle
@@ -52,4 +53,5 @@ ssh-keygen -t rsa
 sudo apt install xsel
 cat id_rsa.pub | xsel --clipboard --input
 
+google-chrome-stable
 #githubで秘密鍵を登録する(改行は削除)　https://github.com/settings/ssh
