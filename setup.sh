@@ -1,8 +1,10 @@
 cd
 
 #sudo apt install git -y
+git config --global user.name "takuminishi0930"
+git config --global user.email "takuminishi0930@icloud.com"
 mkdir program
-cd program
+cd /home/takumi/program
 git clone https://github.com/takuminishi0930/migration
 git clone https://github.com/takuminishi0930/gyoshock-battle
 git clone https://github.com/takuminishi0930/gyoshock-karuta
@@ -39,7 +41,7 @@ sudo apt-get install -y pip
 git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
 mecab-ipadic-neologd/bin/install-mecab-ipadic-neologd -y
 cd
-cd program/migration
+cd /home/takumi/program/migration
 pip3 install -r requirements.txt
 
 cd
@@ -48,4 +50,4 @@ cd ~/.ssh
 ssh-keygen -t rsa
 sudo apt install xsel
 cat id_rsa.pub | xsel --clipboard --input
-#githubで秘密鍵を登録する　https://github.com/settings/ssh
+#githubで秘密鍵を登録する(改行は削除)　https://github.com/settings/ssh
