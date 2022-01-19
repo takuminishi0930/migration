@@ -12,3 +12,5 @@ git remote set-url origin git@github.com:takuminishi0930/TwiGather.git
 cd /home/takumi/program/indicators
 git remote set-url origin git@github.com:takuminishi0930/indicators.git
 git remote add heroku https://git.heroku.com/keyindicators.git
+
+reboot
