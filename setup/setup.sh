@@ -7,4 +7,5 @@ bash installVscode.sh
 bash mecab.sh
 bash heroku.sh
 bash settingGithub.sh
+bash cron.sh
 bash sshkey.sh
