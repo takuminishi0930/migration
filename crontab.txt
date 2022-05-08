@@ -1,2 +1,2 @@
-10 0 * * * bash /home/takumi/program/betaTwiGather/twigather.sh
+# 10 0 * * * bash /home/takumi/program/betaTwiGather/twigather.sh
 0 * * * * bash /home/takumi/program/indicators/indicators.sh
